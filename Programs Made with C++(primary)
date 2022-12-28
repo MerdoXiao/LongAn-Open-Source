@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>;
+using namespace std;
+int main()
+{
+    int sum;
+    sum=0;
+    sum=sum+1;
+    sum=sum+1;
+    sum=sum+1;      //You can cycle indefinitely
+    cout<<sum<<endl;
+    return 0
+}
+
+//The principle of accumulator is applied here. There are several"sum=sum+1", and the result is.
